@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ServerTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2021-12-19T15:59:37" hostname="LAPTOP-M4K5JLCP" time="0.937">
+  <properties/>
+  <testcase name="testDefaultProductForm" classname="ServerTest" time="0.887">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;...n&gt;Received&lt;/option&gt;&lt;[/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;]&gt; but was:&lt;...n&gt;Received&lt;/option&gt;&lt;[option&gt;Rejected&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...n&gt;Received&lt;/option&gt;&lt;[/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;]&gt; but was:&lt;...n&gt;Received&lt;/option&gt;&lt;[option&gt;Rejected&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:63)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:62)
+	at kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at ServerTest$testDefaultProductForm$2.invoke(ServerTests.kt:118)
+	at ServerTest$testDefaultProductForm$2.invoke(ServerTests.kt:100)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:68)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:66)
+	at io.ktor.server.testing.TestEngineKt.withApplication(TestEngine.kt:49)
+	at io.ktor.server.testing.TestEngineKt.withApplication$default(TestEngine.kt:41)
+	at io.ktor.server.testing.TestEngineKt.withTestApplication(TestEngine.kt:66)
+	at ServerTest.testDefaultProductForm(ServerTests.kt:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</failure>
+  </testcase>
+  <testcase name="testUserForm" classname="ServerTest" time="0.033">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;... type=&quot;text&quot; value=&quot;[Misha&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;misha2000&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Administrator&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;]&gt; but was:&lt;... type=&quot;text&quot; value=&quot;[misha2000&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Admin&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;Misha&quot;&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;... type=&quot;text&quot; value=&quot;[Misha&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;misha2000&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Administrator&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;]&gt; but was:&lt;... type=&quot;text&quot; value=&quot;[misha2000&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Admin&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;Misha&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:63)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:62)
+	at kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at ServerTest$testUserForm$2.invoke(ServerTests.kt:37)
+	at ServerTest$testUserForm$2.invoke(ServerTests.kt:9)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:68)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:66)
+	at io.ktor.server.testing.TestEngineKt.withApplication(TestEngine.kt:49)
+	at io.ktor.server.testing.TestEngineKt.withApplication$default(TestEngine.kt:41)
+	at io.ktor.server.testing.TestEngineKt.withTestApplication(TestEngine.kt:66)
+	at ServerTest.testUserForm(ServerTests.kt:9)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</failure>
+  </testcase>
+  <testcase name="testDefaultUserForm" classname="ServerTest" time="0.008">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;... type=&quot;text&quot; value=&quot;[user&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;12345678&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Administrator&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;]&gt; but was:&lt;... type=&quot;text&quot; value=&quot;[12345678&quot;&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Admin&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;user&quot;&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;... type=&quot;text&quot; value=&quot;[user&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;12345678&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Administrator&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;]&gt; but was:&lt;... type=&quot;text&quot; value=&quot;[12345678&quot;&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;select&gt;&lt;option selected=&quot;selected&quot;&gt;User&lt;/option&gt;&lt;option&gt;Editor&lt;/option&gt;&lt;option&gt;Moderator&lt;/option&gt;&lt;option&gt;Admin&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+      &lt;div&gt;&lt;input type=&quot;text&quot; value=&quot;user&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:63)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:62)
+	at kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at ServerTest$testDefaultUserForm$2.invoke(ServerTests.kt:62)
+	at ServerTest$testDefaultUserForm$2.invoke(ServerTests.kt:43)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:68)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:66)
+	at io.ktor.server.testing.TestEngineKt.withApplication(TestEngine.kt:49)
+	at io.ktor.server.testing.TestEngineKt.withApplication$default(TestEngine.kt:41)
+	at io.ktor.server.testing.TestEngineKt.withTestApplication(TestEngine.kt:66)
+	at ServerTest.testDefaultUserForm(ServerTests.kt:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</failure>
+  </testcase>
+  <testcase name="testProductForm" classname="ServerTest" time="0.009">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;...&quot;&gt;Received&lt;/option&gt;&lt;[/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;]&gt; but was:&lt;...&quot;&gt;Received&lt;/option&gt;&lt;[option&gt;Rejected&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...&quot;&gt;Received&lt;/option&gt;&lt;[/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;]&gt; but was:&lt;...&quot;&gt;Received&lt;/option&gt;&lt;[option&gt;Rejected&lt;/option&gt;&lt;/select&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:63)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:62)
+	at kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at ServerTest$testProductForm$2.invoke(ServerTests.kt:94)
+	at ServerTest$testProductForm$2.invoke(ServerTests.kt:68)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:68)
+	at io.ktor.server.testing.TestEngineKt$withTestApplication$1.invoke(TestEngine.kt:66)
+	at io.ktor.server.testing.TestEngineKt.withApplication(TestEngine.kt:49)
+	at io.ktor.server.testing.TestEngineKt.withApplication$default(TestEngine.kt:41)
+	at io.ktor.server.testing.TestEngineKt.withTestApplication(TestEngine.kt:66)
+	at ServerTest.testProductForm(ServerTests.kt:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/etoal/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.32/321ffafb5123a91a71737dbff38ebe273e771e5b/slf4j-simple-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/etoal/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[Test worker] INFO ktor.test - Autoreload is disabled because the development mode is off.
+[Test worker] INFO ktor.test - Application started in 0.072 seconds.
+[Test worker] INFO ktor.test - Autoreload is disabled because the development mode is off.
+[Test worker] INFO ktor.test - Application started in 0.001 seconds.
+[Test worker] INFO ktor.test - Autoreload is disabled because the development mode is off.
+[Test worker] INFO ktor.test - Application started in 0.001 seconds.
+[Test worker] INFO ktor.test - Autoreload is disabled because the development mode is off.
+[Test worker] INFO ktor.test - Application started in 0.001 seconds.
+]]></system-err>
+</testsuite>
